@@ -1,11 +1,16 @@
-i = 10
-j = 20
+#Variables provide a way to associate names with objets...
+pi = 3
+radius = 11
+area = pi * (radius**2)
 
-print('Is the sum of i and j:',i+j)
-print('Is i minus j:',i-j)
-print('Is the product of i and j:',i*j)
-print('Is integer division:',i//j)
-print('Is i divided by j:',i/j)
-print('i mod j',i%j)
-print('Is i rased to the power j:',i**j)
+#The name radius is rebound to a different object of type int...
+radius = 14 
+
+print('Area:',area)
+
+#It first BINDS the names pi and radius to different objects of type int...
+
+#In Python, a variable is just a name...
+#An assignment statement associates the name to the left of the = symbol with
+#the object denoted by the expression to the right of the =.
 
